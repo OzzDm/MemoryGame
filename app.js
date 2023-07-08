@@ -80,7 +80,10 @@ function matchCards(){
         scoreboard.innerHTML = score
         if(score === images.length/2){
             alert('Congratulations! You Win!')
-            location.assign('./index.html')
+            scoreboard.innerHTML = 'Congratulations! You Win!'
+            setTimeout(function(){
+                location.reload();
+             }, 1000)
         }else{
             alert('Matched!')
         }        
