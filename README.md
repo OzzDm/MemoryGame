@@ -60,10 +60,6 @@ When contributing, please follow these guidelines:
 - Push your branch to your forked repository.
 - Open a pull request explaining the changes you made.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - The Memory Game project is inspired by the classic concentration game.
